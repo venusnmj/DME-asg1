@@ -69,6 +69,9 @@ confirmBtn.addEventListener('click', ()=>{
                       totalAmount += Number(enteredAmount);
                       totalExp.textContent = totalAmount.toFixed(2);
                       console.log(sortedCategory);
+
+                      handleButtonClick();
+
     }
     else {
       expenseList.innerHTML += (`<ion-item-sliding class="${sortedCategory}">
@@ -89,6 +92,8 @@ confirmBtn.addEventListener('click', ()=>{
 
                       totalAmount += Number(enteredAmount);
                       totalExp.textContent = totalAmount.toFixed(2);
+
+                      handleButtonClick()
     }
     }
 
@@ -225,7 +230,7 @@ function toggleReorder() {
             });
           }*/
           const button = document.querySelector("#btn-confirm");
-          button.addEventListener('click', handleButtonClick);
+          //button.addEventListener('click', handleButtonClick);
       
           async function handleButtonClick() {
             const toast = await toastController.create({
