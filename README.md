@@ -24,7 +24,7 @@ JQuery, Javascript, css, Ionic framework used to carry out user interaction
 
 Form for spendings. You can try entering nothing or have a missing input first to see the validation that states you have a missing field, then you can key in none numerical number for the money amount to show that the only numbers can be validated in this form. Lastly a sample spending data and continue adding to see how they add up.
 
-[https://github.com/venusnmj/DME-asg1](https://github.com/venusnmj/DME-asg1)
+[https://venusnmj.github.io/DME-asg1/](https://venusnmj.github.io/DME-asg1/)
 
 #
 
